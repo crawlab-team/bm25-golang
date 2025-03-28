@@ -1,3 +1,3 @@
-module lenaxia/bm25_golang
+module github.com/crawlab-team/bm25
 
-go 1.18
+go 1.23

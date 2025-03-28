@@ -34,7 +34,7 @@ To use this BM25 implementation, you need to have Go installed on your system. Y
 Once you have Go installed, you can clone this repository and build the package:
 
 ```bash
-git clone https://github.com/lenaxia/bm25-golang.git
+git clone https://github.com/github.com/crawlab-team/bm25.git
 cd bm25-golang
 go build
 ```
@@ -50,7 +50,7 @@ Here's an example of how to initialize a BM25 instance using the `BM25Okapi` var
 ```go
 import (
     "strings"
-    "bm25-golang/bm25"
+    "github.com/crawlab-team/bm25"
 )
 
 corpus := []string{
